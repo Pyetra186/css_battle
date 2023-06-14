@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #293462;
+}
+/* .quag{
+    width: 200px;
+    height: 200px;
+    background: #FFF1C1;
+} */
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background: #FFF1C1;
+}
+  div:after{
+    content:'';
+    position:absolute;
+    height: 200px;
+    width: 100px;
+    background: linear-gradient(to bottom, #FE5F55 150px, #A64942 150px);
+    left: 200px;
+  }
+  div:before{
+    content:'';
+    position:absolute;
+     height: 100px;
+    width: 200px;
+    background: linear-gradient(to right, #FE5F55 150px, #A64942 150px);
+    top: 200px;
+  }
